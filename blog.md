@@ -1,6 +1,6 @@
 # Setting Up a Local Installation of Ushahidi Platform: A Step-by-Step Guide
 
-![Virtual Machine]()
+![Virtual Machine](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/platform1.png)
 
 ## Introduction
 
@@ -16,9 +16,9 @@ To create the VM, we'll use VirtualBox, an open-source hypervisor. Download and 
 
 Once you've installed Ubuntu, it's time to install Docker, Make, and Git. These tools are essential for setting up Ushahidi locally.
 
-![Terminal1](image-link)
-![Terminal2](image-link)
-![Terminal3](image-link)
+![Terminal1](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/platform2.png)
+![Terminal2](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/platform3.png)
+![LocalHost:8080](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/localhost.png)
 
 Ubuntu uses APT as its default package manager. Open the terminal and run:
 
@@ -50,8 +50,8 @@ git clone https://github.com/ushahidi/platform.git
 
 Next, navigate into the repository's directory and follow the instructions provided in the [install documentation](https://github.com/ushahidi/platform) to start Ushahidi locally. The instructions will involve building the project and starting it with Docker.
 
-![Docker1](image-link)
-![Docker2](image-link)
+![Docker1](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/Docker.png)
+![Docker2](https://github.com/vivekanandareddy-ponugoti/platform/blob/develop/img/Docker.png)
 
 Interact with your local Ushahidi instance through a web browser within your VM. Navigate to the localhost address and port where Ushahidi is running, and you'll be able to use the platform's features, such as creating surveys, configuring data sources, and visualizing collected information.
 
